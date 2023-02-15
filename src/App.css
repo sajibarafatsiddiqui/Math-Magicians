@@ -1,3 +1,9 @@
+.container{
+  width:60%;
+  padding-top:5rem;
+  margin:auto
+}
+
 .keyContainer {
   display:grid;
   grid-template-columns: repeat(12,1fr);
@@ -8,14 +14,20 @@
 }
 
 .darkgray {
-  background:darkgray
+  background:#858694;
+  text-align:right
 }
 
 .lightgray {
-  background:lightgray;
+  background:#E0E0E0;
   grid-column: auto / span 3;
+  text-align: center;
 }
 
 .lightgray:nth-child(n+17){
   grid-column: auto / span 4;
+}
+
+.lightgray:nth-child(4n){
+  background:#F5913E
 }
