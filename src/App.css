@@ -46,3 +46,7 @@
 .lightgray:nth-child(19) {
   background: #f5913e;
 }
+
+.lightgray:hover {
+  cursor:pointer;
+}
