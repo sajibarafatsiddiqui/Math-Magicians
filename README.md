@@ -107,9 +107,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  sh
-  cd my-project
-   git clone https://github.com/sajibarafatsiddiqui/Math-Magicians.git   
+   git@github.com:sajibarafatsiddiqui/math_magicians.git
+   cd math_magicians 
 
 ```
 
@@ -120,8 +119,6 @@ Install this project with:
 
 ```
    sh
-   cd my-project
-   npm init -y
    npm install
    
 ```
