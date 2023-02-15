@@ -1,5 +1,5 @@
 .container{
-  width:60%;
+  width:30%;
   padding-top:5rem;
   margin:auto
 }
@@ -15,19 +15,35 @@
 
 .darkgray {
   background:#858694;
-  text-align:right
+  text-align:right;
+  height:3rem;
+  line-height: 3rem;
+  color:white;
+  font-size:large;
+  
 }
 
 .lightgray {
   background:#E0E0E0;
   grid-column: auto / span 3;
   text-align: center;
+  font-size: small;
+  height:3rem;
+  line-height: 3rem;
 }
 
-.lightgray:nth-child(n+17){
-  grid-column: auto / span 4;
+.lightgray:nth-child(17){
+  grid-column: auto / span 6;
+}
+
+.lightgray:nth-child(n+18){
+  grid-column: auto / span 3;
 }
 
 .lightgray:nth-child(4n){
+  background:#F5913E
+}
+
+.lightgray:nth-child(19){
   background:#F5913E
 }
