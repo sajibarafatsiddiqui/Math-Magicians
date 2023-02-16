@@ -5,10 +5,9 @@ import calculate from '../logic/calculate';
 
 const buttons = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 const Calculator = () => {
-  const [tools, setTools] = useState({ total: null, next: null, operation: null });
+  const [tools, setTools] = useState({ total: 0, next: 0, operation: null });
   const [display, setDisplay] = useState(0);
   useEffect(() => {
-    console.log(tools);
     if (tools.next) {
       setDisplay(tools.next);
     } else if (tools.operation) {
@@ -16,11 +15,10 @@ const Calculator = () => {
     } else if (tools.total) {
       setDisplay(tools.total);
     } else setDisplay(0);
-  });
+  }, [tools.next, tools.operation, tools.total]);
   const operation = (e) => {
     const updatedTools = calculate(tools, e.target.innerHTML);
     setTools(updatedTools);
-    setDisplay((state) => console.log(state, tools));
   };
   return (
     <section className="container">
