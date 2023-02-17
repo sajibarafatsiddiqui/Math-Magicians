@@ -1,10 +1,19 @@
 <a name="readme-top"></a>
 
 
-<div align
+<div align>
   <h3><b>README</b></h3>
 
 </div>
+
+<div align="center">
+  <img src="calculator.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Math Magicians</b></h3>
+
+</div>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -82,7 +91,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Will be added later](#)
+- [Live Demo](https://sajibarafatsiddiqui.github.io/math_magicians)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
