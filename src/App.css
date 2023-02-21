@@ -55,6 +55,7 @@
   display: flex;
   justify-content: space-around;
 }
+
 .nav-links {
   list-style-type: none;
   display: flex;
@@ -62,24 +63,23 @@
 }
 
 .introduction {
-  margin:auto;
-  width:70%;
-  padding-top:4rem;
+  margin: auto;
+  width: 70%;
+  padding-top: 4rem;
 }
 
 .wrapper {
-  width:70%;
-  padding:0;
-  margin:auto;
-  display:flex;
+  width: 70%;
+  padding: 0;
+  margin: auto;
+  display: flex;
   justify-content: space-between;
-  flex:1;
-  padding-top:4rem;
+  flex: 1;
+  padding-top: 4rem;
 }
 
 .quote {
-  width:70%;
-  margin:auto;
-  padding-top:5rem;
+  width: 70%;
+  margin: auto;
+  padding-top: 5rem;
 }
-
