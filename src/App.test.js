@@ -6,7 +6,7 @@ import Quote from 'router/Quote';
 import Calculator from 'components/Calculator';
 import App from 'App';
 import { render } from '@testing-library/react';
-import { BrowserRouter, useLocation, NavLink } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Header from 'components/Header';
 import Key from 'components/Key';
 import Display from './components/Display';
