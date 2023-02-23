@@ -84,6 +84,7 @@
 - **[key_feature_1]** Configured linters for react app
 - **[key_feature_2]** Basic Setup of React
 - **[key_feature_3]** Professional readme file 
+- **[key_feature_4]** Test for componentes, js files and User interactions 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
