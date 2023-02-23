@@ -92,7 +92,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://sajibarafatsiddiqui.github.io/math_magicians)
+- [Live Demo](https://simple-calculator-pym9.onrender.com/math_magicians)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
